@@ -1,0 +1,25 @@
+In Kotlin, every variable should be declared before it's used.Without declaring a variable,
+an attempt to use the variable gives a syntax error. Declaration of the variable type also
+decides the kind of data you are allowed to store in the memory location.
+
+All the type of variable should be known as compile time not at runtime.
+
+In Kotlin, variables are declared using two types--
+1. Immutable using val keyword
+    Immutable is also called read-only variables. Hence, we can not change the value of the
+    variable using val keyword
+
+    val nyName = "Raj"
+    myName = "Aryan" // compile time error (It gives error Kotlin val cannot ve reassigned)
+
+    Immutable variable is not a constant because it can be initialized with the value of a
+    variable. It means the value of immutable variable doesn't need to be known at compile-time,
+    and if it is declared inside a construct that is called repeatedly, it can take on a different
+    value on each function call.
+
+2. Mutable using var keyword
+    In Mutable variable we can change the value of the variable.
+
+    var myAge = 25
+    myAge = 26
+

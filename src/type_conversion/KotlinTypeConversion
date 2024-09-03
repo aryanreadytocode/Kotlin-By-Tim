@@ -1,0 +1,24 @@
+As we know Java supports implicit type conversion from smaller to larger data types. An
+integer value can be assined to the long data type.
+
+But, Kotlin does not support implicit type conversion. An integer can not be assigned to the long
+data type.
+
+var number = 100;
+var myLongNumber: Long = number     // compile error, Type mismatch: inferred type is Int but Long was expected.
+
+
+var myNumber = 100
+var myLongNumber: Long = myNumber.toLong()
+
+The following helper function can be used to convert one data type into another:
+
+    -- toByte()
+    -- toShort()
+    -- toInt()
+    -- toLong()
+    -- toFloat()
+    -- toDouble()
+    -- toChar()
+
+    Note: There is no helper function available to convert into boolean type.

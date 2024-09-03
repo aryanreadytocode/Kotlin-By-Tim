@@ -1,0 +1,8 @@
+The most fundamental data types in Kotlin is the Primitive data type and all others
+are reference types like array and string.Java needs to use wrappers for primitive data
+types to behave like objects but Kotlin already has all data types as objects.
+
+1. Integer Data type
+2. Floating Data type
+3. Boolean Data type
+4 Character Data type

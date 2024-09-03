@@ -1,0 +1,51 @@
+Operators are the special symbols that perform different on operands
+
+1. Arithmetic Operator
+
++   Addition    a+b
+-   Subtraction a-b
+*   Multiply    a*b
+/   Division    a/b
+%   Modulus     a%b
+
+
+2. Relational Operators
+
+>   grater than                 a>b
+<   less than                   a<b
+>=  greater than or equal to    a>=b
+<=  less than or equal to       a<=b
+==  is equal to                 a==b
+!=  not equal to                a!=b
+
+
+3. Assignment Operators
+
+
++=      a=a+b       a.plusAssign(b)>0
+-=      a=a-b       a.minusAssign(b)<0
+*=      a=a*b       a.timesAssign(b)>=0
+/=      a=a/b       a.divAssign(b)<=0
+%=      a=a%b       a.remAssign(b)
+
+4. Unary Operator
+
+++      ++a or a++      a.inc()
+--      --a or a--      a.dec()
+
+5. Logical Operators-
+
+&&      return true if all expressions are true             (a>b) && (a>c)
+||      return true if any of the expression is true        (a>b) || (a>c)
+!       return complement of the expression                 a.not()
+
+
+6. Bitwise operators
+
+shl     signed shift left       a.shl(b)
+shr     signed shift right      a.shr(b)
+ushr    unsigned shift right    a.ushr(b)
+and     bitwise and             a.and(b)
+or      bitwise or              a.or()
+xor     bitwise xor             a.xor()
+inv     bitwise inverse         a.inv()
